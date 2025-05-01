@@ -1,0 +1,219 @@
+* {
+  margin: 0px;
+  padding: 0pxS;
+}
+.imageofcertificate {
+  padding-bottom: 50px;
+}
+
+#wrapper-canvas canvas {
+  max-width: 100%;
+}
+body {
+  font-family: Arial, "Times New Roman", Times, serif;
+  margin: 10px;
+}
+button + .skill {
+  margin-left: 50px;
+}
+
+.skill {
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.skill p {
+  margin: 0 0 5px 0;
+  font-weight: bold;
+}
+
+.progress-bar {
+  background-color: #e0e0e0;
+  border-radius: 2px;
+  overflow: hidden;
+  height: 5px;
+}
+
+.progress {
+  background-color: #8f19d8; /* Purple color like your sample */
+  height: 100%;
+}
+
+.dlogo {
+  width: 50px;
+  filter: invert(100%);
+  border-radius: 10px;
+}
+.circular-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 8px solid #111; /* Optional: for a border effect */
+  background: #fff;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.circular-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body {
+  background-color: #111;
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+
+.logo-image {
+  width: 70px;
+  height: 70px;
+  filter: drop-shadow(4px 8px 12px rgba(14, 13, 13, 0.7));
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.logo-image:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(8px 16px 20px rgba(22, 22, 22, 0.9));
+}
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Certificate Section Container */
+.certificate-section {
+  padding: 20px;
+  background-color: #000; /* Black background */
+  color: white; /* Default text color */
+  font-family: "Arial", sans-serif;
+}
+
+/* Title Styling */
+
+/* Animation for Headline */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Gallery Grid */
+.certificate-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Change to 3 items per row */
+  gap: 20px; /* Space between grid items */
+  justify-items: center; /* Center items horizontally */
+  padding: 10px;
+}
+
+/* Individual Certificate Item */
+.certificate-item {
+  display: flex;
+  flex-direction: column; /* Ensure description is below the image */
+  align-items: center; /* Center align image and text */
+  background: #222; /* Background color for the item */
+  padding: 15px;
+  border-radius: 10px; /* Rounded corners for the box */
+  border: 2px solid #444; /* Subtle border for the box */
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2); /* White shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.certificate-item:hover {
+  transform: scale(1.02); /* Slight zoom effect */
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3); /* Enhance shadow on hover */
+}
+
+/* Image Styling */
+.certificate-item img {
+  position: relative;
+  width: 200px; /* Set image size */
+  height: 200px; /* Make the image square */
+  object-fit: cover; /* Ensure image fills the container */
+  border-radius: 10px; /* Rounded corners for the image */
+  border: 2px solid #fff; /* White border for the image */
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.3); /* Subtle shadow for the image */
+  margin-bottom: 20px; /* Space between image and description */
+}
+
+/* Description Styling */
+.certificate-item .description {
+  color: red; /* Red text for the description */
+  font-family: "Times New Roman", serif; /* Times New Roman font */
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center; /* Center align text */
+  line-height: 1.5; /* Improve readability */
+  position: absolute;
+}
+
+div > img {
+  border-radius: 5%;
+}
+.description {
+  color: rgb(17, 16, 16);
+  background: radial-gradient(
+    circle,
+    rgba(64, 225, 234, 1) 16%,
+    rgba(24, 46, 237, 1) 88%
+  );
+  font-weight: 700;
+  padding: 2px;
+  border-radius: 10px;
+  text-align: center;
+  object-fit: cover;
+}
+span {
+  display: none;
+}
+div:hover span {
+  display: inline-block;
+  color: rgb(17, 16, 16);
+  background: radial-gradient(
+    circle,
+    rgba(64, 225, 234, 1) 16%,
+    rgba(24, 46, 237, 1) 88%
+  );
+  font-weight: 700;
+  padding: 2px;
+  border-radius: 10px;
+  text-align: center;
+}
+h1[name="name"] {
+  font-family: "Merriweather", serif;
+}
+footer p {
+  font-family: "Merriweather", serif;
+}
+.certifiborder {
+  border: 10px #000;
+}
+
+.arrow {
+  font-size: 120px;
+  color: rgb(225, 221, 221);
+  display: inline-block;
+  animation: moveRight 1s infinite alternate;
+}
+@keyframes moveRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(10px);
+  }
+}
